@@ -1,0 +1,79 @@
+#body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.center {
+    margin-left:  37%; ;
+    width: 28%;
+    border: 3px dashed rgb(199, 17, 17);
+    padding: 10px;
+  }
+
+  .center2 {
+    margin-left:  37%; ;
+    width: 28%;
+    border: 3px groove rgb(51, 19, 231);
+    padding: 10px;
+  }
+
+#apoyo{
+    margin-left:  31%; ;
+    width: 40%;
+    border: 3px groove rgb(51, 19, 231);
+    padding: 10px;
+}
+
+.imperio{
+    background-color: rgba(245, 0, 0, 0.616);
+    width: 300px;
+    margin-left: 50px; 
+    text-align: center;
+}
+
+.rebeldes{
+    background-color: rgba(4, 0, 245, 0.616);
+    width: 450px;
+    margin-left: 50px; 
+    text-align: center;
+}
+
+#stormtrooper{
+    width: 390px;
+}
+
+#tiefighter{
+    width: 420px;
+}
+
+.apoyo{
+    border: solid 2px  rgba(245, 0, 0, 0.616);
+    width: 50%;
+    margin-left: 25%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#text{
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.719);
+    
+}
+
+#darth{
+    font-size: larger;
+}
+
+#luke{
+    font-style: italic;
+}
+
+#droides{
+    background-color: rgba(4, 0, 245, 0.616);
+}
+
+#naves{
+    text-transform: uppercase;
+}

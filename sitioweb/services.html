@@ -1,0 +1,82 @@
+<!-- Diseño de los botones -->
+<style>
+       .taller{
+        height: 40px;
+        width: 300px;
+        border: 2px;
+        border-style: solid;
+        border-color: blueviolet;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 20px;
+        font-family: monospace;
+        cursor: pointer;
+        color: blueviolet;
+        transition: all 0.15s;
+        }
+        
+    .taller:hover{
+        background-color: blueviolet;
+        border-color: white;
+        color: white;
+    }
+
+    .tienda{
+        height: 40px;
+        width: 300px;
+        border: 2px;
+        border-style: solid;
+        border-color: blueviolet;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 20px;
+        font-family: monospace;
+        cursor: pointer;
+        color: blueviolet;
+        transition: all 0.15s;
+        }
+        
+    .tienda:hover{
+        background-color: blueviolet;
+        border-color: white;
+        color: white;
+    }
+
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+</head>
+</head>
+<!-- Inicio del cuerpo del sitio -->
+<body style="background-color: rgba(137, 43, 226, 0.671); font-family: monospace;color: white;text-align: center;">
+    <h1>Productos y servicios</h1>
+    <di >
+        <!-- Botones que representan los servicios que ofrecemos -->
+    <button class="taller">Taller de almohadas</button>
+    <button class="tienda">Online shop</button><br><br>
+    </div>
+<!-- Descripcion de los servicios -->
+<p style="display: inline-block; padding-inline: 30px;font-size: 20px;">
+Aqui podras diseñar tus propias almohadas <br> con las herramientas que te 
+proveemos o puedes <br> subir el tuyo propio para que hagamos tu pedido<br> con tus especificaciones
+</p>
+
+<p style="display: inline-block;padding-inline: 20px;font-size: 20px;">
+    Aqui podras acceder a articulos que fueron  previamente <br> subidos por usuarios o creados por nosotros 
+<br> y podras agregarlos a tu carrito para hacer tu compra
+</p>
+
+
+</body>
+<!-- Pie de pagina -->
+<footer style="text-align: left;">
+    <a href="mianmenu.html" style="font-size: 20px;">Main menu</a>
+</footer>
+</html>

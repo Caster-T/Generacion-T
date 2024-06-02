@@ -1,0 +1,73 @@
+body{
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+li{
+    text-align: center;
+}
+
+a{
+    color: yellow;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carnivoros{
+    background-color: rgb(255, 0, 0, 0.8);
+}
+
+.acuaticos{
+    background-color: rgb(0, 0, 255, 0.8);
+    font-style: italic;
+}
+
+.voladores{
+    background-color: lightblue;
+    text-shadow: 3px 3px 8px white;
+}
+
+#trex{
+    font-size: 24px;
+}
+
+#triceratops{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.top-round-rainbow {
+    width: 400px;
+    height: 35px;
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    
+    background-image: repeating-linear-gradient(to right,
+    #c4e17f 0px, #c4e17f 50px,
+    #f7fdca 50px, #f7fdca 100px,
+    #fad071 100px, #fad071 150px,
+    #f0766b 150px, #f0766b 200px,
+    #db9dbe 200px, #db9dbe 250px,
+    #c49cdf 250px, #c49cdf 300px,
+    #6599e2 300px, #6599e2 350px,
+    #61c2e4 350px, #61c2e4 400px);
+    background-size: 100% 10px;
+    background-repeat:no-repeat;
+    padding-top: 7px;
+    text-align: center;
+  }
+
+  #pics{
+    height: 300px;
+    width: 500px;
+  }
+
+  .text{
+    font-size: larger;
+    text-decoration: underline;
+  }
